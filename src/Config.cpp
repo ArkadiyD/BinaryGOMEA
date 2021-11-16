@@ -184,7 +184,7 @@ void Config::printUsage()
   cout << "    --GOM: GOM type. Default: 0 (LT). 1 - conditionalGOM (CGOM) based on MI\n";
   cout << "    --threshold: Threshold value for CGOM. Default: 0.8\n";
   cout << "    --hillClimber: Hill Climber usage. Default: 0 (no HC). 1 - single HC. 2 - Exhaustive HC\n"; 
-  cout << "    --FOS: FOS type. Default: 0 (LT). 1 - Filtered LT. 2 - Efficient implementation of LT for P3 (without Tournament Selection). 4 - Efficient implementation of filtered LT for P3 (without Tournament Selection).\n";
+  cout << "    --FOS: FOS type. Default: 1 (LT). 2 - Filtered LT. 3 - Efficient implementation of LT for P3 (without Tournament Selection). 4 - Efficient implementation of filtered LT for P3 (without Tournament Selection).\n";
   cout << "    --orderFOS: FOS order. Default: 0 (randomly shuffled). 1 - sorted by the FOS elements size (ascending order).\n";
   cout << "    --similarityMeasure: FOS building similarity measure. Default: 0 (MI). 1 - NMI.\n";
   cout << "    --scheme: Population Management Scheme. Default: 0 (single population). 1 - IMS. 2 - P3. 3 - P3-MI (Quadratic). 4 - P3-MI (Linear).\n";
